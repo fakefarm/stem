@@ -1,0 +1,15 @@
+client: 'bob dobalina'
+steps:
+  -
+    name: 'get content'
+    role: 'client'
+    status: 'complete'
+  -
+    name: 'post splash page'
+    role: 'client'
+    status: 'pending'
+  -
+    name: 'post splash page'
+    role: 'clov3r'
+    status: ''
+

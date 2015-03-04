@@ -1,0 +1,4 @@
+-
+  mailchimp: 'true'
+  description: 'Where to manage your email subscriptions'
+  url: "http://www.mailchimp.com"
