@@ -1,0 +1,16 @@
+site_name: "site name"
+hero_intro: "lorem blamo"
+contact:
+  phone: '706-506-5285'
+  email: 'aaron@petersonmasonry'
+  address: 'rome, ga'
+  fax: '706-243-4220'
+  hours: ''
+social:
+  twitter: ''
+  facebook: ''
+  pintrest: ''
+  instagram: ''
+  linkedin: ''
+bio: ''
+services: ''
