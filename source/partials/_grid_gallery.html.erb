@@ -1,0 +1,43 @@
+<!-- _dw TODO - make the grid loop based off yml file -->
+<!-- _dw Question any issue with nested partial directories for data? -->
+<div class="container">
+  <div id="grid-gallery" class="grid-gallery">
+    <section class="grid-wrap">
+      <ul class="grid">
+        <li class="grid-sizer"></li><!-- for Masonry column width -->
+        <% data.partials.grid_gallery.images.thumb.each do |img| %>
+          <li>
+            <figure>
+              <%= image_tag img.src %>
+            <figcaption>
+              <h3><%= img.title %></h3>
+              <p><%= img.body %></p>
+            </figcaption>
+            </figure>
+          </li>
+        <% end %>
+      </ul>
+    </section><!-- // grid-wrap -->
+    <section class="slideshow">
+      <ul>
+        <% data.partials.grid_gallery.images.large.each do |img| %>
+          <li>
+            <figure>
+              <%= image_tag img.src %>
+            <figcaption>
+              <h3><%= img.title %></h3>
+              <p><%= img.body %></p>
+            </figcaption>
+            </figure>
+          </li>
+        <% end %>
+      </ul>
+      <nav>
+        <span class="icon nav-prev"></span>
+        <span class="icon nav-next"></span>
+        <span class="icon nav-close"></span>
+      </nav>
+      <div class="info-keys icon">Navigate with arrow keys</div>
+    </section><!-- // slideshow -->
+  </div><!-- // grid-gallery -->
+</div>

@@ -1,0 +1,51 @@
+images:
+  thumb:
+    -
+      src: 'grid_gallery/example_album/thumb/1.png'
+      title: 'YAY'
+      body: 'The proverbs of solomon son of david, king of israel. for gaining wisdom and instruction'
+    -
+      src: 'grid_gallery/example_album/thumb/2.png'
+      title: 'YAY'
+      body: 'The proverbs of solomon son of david, king of israel. for gaining wisdom and instruction'
+    -
+      src: 'grid_gallery/example_album/thumb/3.png'
+      title: 'YAY'
+      body: 'The proverbs of solomon son of david, king of israel. for gaining wisdom and instruction'
+    -
+      src: 'grid_gallery/example_album/thumb/4.png'
+      title: 'YAY'
+      body: 'The proverbs of solomon son of david, king of israel. for gaining wisdom and instruction'
+    -
+      src: 'grid_gallery/example_album/thumb/5.png'
+      title: 'YAY'
+      body: 'The proverbs of solomon son of david, king of israel. for gaining wisdom and instruction'
+    -
+      src: 'grid_gallery/example_album/thumb/5.png'
+      title: 'YAY'
+      body: 'The proverbs of solomon son of david, king of israel. for gaining wisdom and instruction'
+  large:
+    -
+      src: 'grid_gallery/example_album/large/1.png'
+      title: 'YAY'
+      body: 'The proverbs of solomon son of david, king of israel. for gaining wisdom and instruction'
+    -
+      src: 'grid_gallery/example_album/large/2.png'
+      title: 'YAY'
+      body: 'The proverbs of solomon son of david, king of israel. for gaining wisdom and instruction'
+    -
+      src: 'grid_gallery/example_album/large/3.png'
+      title: 'YAY'
+      body: 'The proverbs of solomon son of david, king of israel. for gaining wisdom and instruction'
+    -
+      src: 'grid_gallery/example_album/large/4.png'
+      title: 'YAY'
+      body: 'The proverbs of solomon son of david, king of israel. for gaining wisdom and instruction'
+    -
+      src: 'grid_gallery/example_album/large/5.png'
+      title: 'YAY'
+      body: 'The proverbs of solomon son of david, king of israel. for gaining wisdom and instruction'
+    -
+      src: 'grid_gallery/example_album/large/5.png'
+      title: 'YAY'
+      body: 'The proverbs of solomon son of david, king of israel. for gaining wisdom and instruction'
