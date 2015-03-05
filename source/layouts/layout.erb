@@ -9,6 +9,7 @@
     <meta name="description" content="<%= data.seo.meta.description %>" />
     <meta name="keywords" content="<%= data.seo.meta.keywords %>" />
     <meta name="author" content="<%= data.seo.meta.author %>" />
+    <!-- _dw TODO - add twitter / fb / linkedin meta tags -->
 
     <title><%= current_page.data.title || "clov3r | <3 your site" %></title>
     <%= stylesheet_link_tag "normalize", "all" %>
@@ -18,8 +19,6 @@
 
   <body class="<%= page_classes %>">
     <%= yield %>
-    <script>
-      new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
-    </script>
+
   </body>
 </html>

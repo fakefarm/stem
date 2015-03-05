@@ -22,11 +22,21 @@
 @import "pages/landing_page";
 
 @import "vendor/animate";
+@import "partials/content_tabs_plain";
 
-// Add which font system
+// -------------------------------------
+// TYPOGRAPHY
+// -------------------------------------
 // @import "typography/geometric";
+
+
+// -------------------------------------
+// PARTIALS
+// -------------------------------------
+
+// Plain tabs
 
 // Grid Gallery
 // http://tympanus.net/Blueprints/GridGallery/
-@import "vendor/demo";
-@import "vendor/component";
+// @import "vendor/demo";
+// @import "vendor/component";

@@ -28,3 +28,13 @@ Then you can run
 Bundle is skipped so you'll need to
 
 `cd your_app_nam && bundle exec bundle install`
+
+
+## Snippets
+
+### grid_gallery
+
+- put images in the `/grid_gallery/album_name`
+- reference images by `data/partials/grid_gallery.yml`
+- insert partial `/partials/grid_gallery`
+- uncomment Grid_gallery @imports in `all.css.scss`
