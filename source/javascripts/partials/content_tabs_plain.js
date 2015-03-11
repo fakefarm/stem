@@ -1,12 +1,12 @@
 $(document).ready(function () {
-  $('.accordion-tabs').each(function(index) {
+  $('.accordion-tabs-minimal').each(function(index) {
     $(this).children('li').first().children('a').addClass('is-active').next().addClass('is-open').show();
   });
 
-  $('.accordion-tabs').on('click', 'li > a', function(event) {
+  $('.accordion-tabs-minimal').on('click', 'li > a', function(event) {
     if (!$(this).hasClass('is-active')) {
       event.preventDefault();
-      var accordionTabs = $(this).closest('.accordion-tabs');
+      var accordionTabs = $(this).closest('.accordion-tabs-minimal');
       accordionTabs.find('.is-open').removeClass('is-open').hide();
 
       $(this).next().toggleClass('is-open').toggle();
